@@ -30,5 +30,7 @@ declare module "react-fontawesome" {
 
   class FontAwesome extends React.Component<FontAwesomeProps, {}> {}
 
+  namespace FontAwesome {}
+
   export = FontAwesome;
 }
